@@ -1,0 +1,102 @@
+
+
+.hex_row_even {
+  display: inline-block;
+  margin: 0 auto -275px auto;
+  overflow: hidden;
+}
+
+.hex_row_odd {
+  display: inline-block;
+  margin: 0 auto -275px auto;
+  overflow: hidden;
+}
+
+.center {
+  float: left;
+  margin: 20px 45px;
+  width: 220px;
+}
+
+.hexagon {
+  -moz-transform: rotate(120deg);
+  -ms-transform: rotate(120deg);
+  -webkit-transform: rotate(120deg);
+  transform: rotate(120deg);
+  cursor: pointer;
+  height: 260px;
+  overflow: hidden;
+  visibility: hidden;
+  width: 220px;
+}
+
+.hex1 {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+.hex2 {
+  -moz-transform: rotate(-60deg);
+  -ms-transform: rotate(-60deg);
+  -webkit-transform: rotate(-60deg);
+  transform: rotate(-60deg);
+  height: 100%;
+  /*@include background-size(($width + ($width * .20)) ($width + ($width * .20)));
+  background-position: 50%;*/
+  position: relative;
+  visibility: visible;
+  width: 100%;
+}
+
+
+
+
+
+.hex2 .desc {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  height: 440px;
+  line-height: 1.5em;
+  position: absolute;
+  text-align: center;
+  visibility: visible;
+  width: 220px;
+  background:rgba(0,0,0,.3);
+}
+.desc.base {
+  background: rgba(230, 0, 98, 0.75);
+}
+.desc.one {
+  background: rgba(252, 171, 55, 0.75);
+}
+.desc.two {
+  background: rgba(169, 160, 50, 0.75);
+}
+.desc.three {
+  background: rgba(83, 70, 54, 0.75);
+}
+.desc h4 {
+  margin: 152px 20px 0 20px;
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  font-size:15px;
+  color:#FFF;
+  border:2px solid #ffffff;
+  padding:10px;
+}
+.desc h4 a {
+  
+  color:#FFF;
+  
+}
+.desc p {
+  font-size: .5em;
+}

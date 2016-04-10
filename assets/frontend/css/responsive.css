@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:766px) {
+	
+	
+}
+
+
+@media only screen and (min-width:768px) and (max-width:992px) {
+	
+}
+
+@media only screen and (min-width:992px) and (max-width:1024px) {
+
+	
+}
+
+@media only screen and (min-width:480px) and (max-width:767px) {
+
+	
+}
+
+@media only screen and (min-width:300px) and (max-width:767px) {
+
+
+.dropdown:hover .dropdown-menu {
+      display: block;
+      -webkit-animation: none;
+      animation: none;
+	  width:100%;
+}
+.top-bar .full_width {
+	text-align:left;
+}
+.top-bar .full_width .contactno {
+	font-size:20px;
+	margin-top:10px;
+}
+.navbar-collapse{
+	padding-right:15px;
+	padding-left:15px;
+}
+
+
+
+	
+}
